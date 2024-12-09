@@ -1,0 +1,140 @@
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff7f7;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #ff4d4d; /* New theme red color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header hr {
+    margin-top: 10px;
+    margin-left: 300px;
+    border: 1px solid #fff;
+    width: 50%;
+}
+
+/* Button styling */
+form button {
+    background-color: #ff6666; /* Lighter red for the button */
+    color: white;
+    border: none;
+    margin-top: 10px;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+form button a {
+    color: white;
+    text-decoration: none;
+}
+
+form button:hover {
+    background-color: #e60000; /* Darker red on hover */
+}
+
+/* Main content section */
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+main p{
+    font-size: 22px;
+}
+/* Article section styling */
+.articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+    padding-top: 20px;
+}
+
+.articles a {
+    display: block;
+    text-align: center;
+    color: #333;
+    font-size: 22px;
+    text-decoration: none;
+    background-color:white;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    position: relative;
+}
+
+.articles a:hover {
+    transform: scale(1.05); /* Slight scale on hover */
+    background-color: #e60000; /* Darker red on hover */
+}
+
+.articles img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.articles a span {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* Footer styling */
+footer {
+    background-color: #ff4d4d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .articles {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    form button {
+        font-size: 1rem;
+    }
+
+    .articles a {
+        padding: 15px;
+    }
+}

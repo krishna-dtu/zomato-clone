@@ -1,0 +1,83 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Font for the body */
+    background-color: #f9f9f9; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #f80303; /* Dark red header */
+    color: #ffffff; /* White text color */
+    padding: 20px; /* Padding around header */
+    text-align: center; /* Center align text */
+}
+
+h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 2.5rem; /* Large font for main title */
+}
+
+/* Suggestion Form Styling */
+.suggestion-form {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #e6e6e6; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding for the form */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); /* Subtle shadow for elegance */
+    margin: 20px auto; /* Center the form */
+    max-width: 600px; /* Maximum width for the form */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for effects */
+}
+
+.suggestion-form:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.suggestion-form h2 {
+    color: #f80303; /* Dark red color for headings */
+}
+
+/* Label Styling */
+.suggestion-form label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below labels */
+}
+
+/* Input and Textarea Styling */
+.suggestion-form input[type="text"],
+.suggestion-form input[type="email"],
+.suggestion-form textarea {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding for inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 15px; /* Space below inputs */
+    transition: border-color 0.2s; /* Smooth transition for border */
+}
+
+/* Input Focus Effect */
+.suggestion-form input[type="text"]:focus,
+.suggestion-form input[type="email"]:focus,
+.suggestion-form textarea:focus {
+    border-color: #f80303; /* Dark red border on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Submit Button Styling */
+.suggestion-form input[type="submit"] {
+    background-color: #f80303; /* Dark red background for submit button */
+    color: #ffffff; /* White text */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for effects */
+}
+
+.suggestion-form input[type="submit"]:hover {
+    background-color: #f80303; /*  red on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}

@@ -1,0 +1,153 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Default text color */
+}
+
+header {
+    background-color: rgba(0, 102, 204, 0.7); /* Semi-transparent blue background */
+    background-image: url('img/add_restaurant2.png'); /* Background image */
+    background-size: cover; /* Cover the entire header */
+    background-position: center; /* Center the background image */
+    padding: 20px; /* Padding around the header */
+    display: flex; /* Flexbox for alignment */
+    justify-content: space-between; /* Space between logo and the list */
+    align-items: center; /* Center items vertically */
+    color: white; /* Text color for better contrast */
+}
+
+header img {
+    height: 60px; /* Adjust logo size */
+}
+
+header ul {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Flexbox for horizontal layout */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+header ul li {
+    margin-left: 20px; /* Space between list items */
+}
+
+header ul li a {
+    color: white; /* Text color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make links bold */
+}
+
+header ul li a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
+
+
+/* Main Section Styling */
+main {
+    padding: 50px;
+}
+
+/* Section 1 Styling (With Background Image) */
+section:first-of-type {
+    background-image: url('../img/add_restaurant2.png'); /* Use correct path */
+    background-size: cover; /* Cover full section */
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+section:first-of-type h1 {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+section:first-of-type p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+section:first-of-type a {
+    display: inline-block;
+    background-color: #0066cc; /* Light blue button */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section:first-of-type a:hover {
+    background-color: #004d99; /* Darker blue on hover */
+}
+/* Styling for the Get Started Section */
+section {
+    background-color: #ffffff; /* White background for contrast */
+    padding: 50px; /* Padding around the content */
+    border-radius: 20px; /* Rounded corners */
+    margin-top: 30px; /* Space above the section */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+section h2 {
+    font-size: 24px; /* Size of the section heading */
+    color: #0b0c0c; /* Heading color */
+    margin-bottom: 15px; /* Space below the heading */
+}
+section video {
+    margin-top: 0px; /* Space above the video */
+    border: 5px solid #ddd; /* Light gray border around video */
+    border-radius: 10px; /* Rounded corners for video */
+    max-width: 100%; /* Responsive video width */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 800px;
+    
+}
+section p {
+    font-size: 18px; /* Paragraph text size */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px; /* Space below the paragraph */
+}
+
+section ul {
+    list-style: none; /* Remove default list styles */
+    padding-left: 0; /* Remove padding */
+    margin-bottom: 15px; /* Space below the list */
+}
+
+section ul li {
+    font-size: 18px; /* Size of the list items */
+    padding: 10px 15px; /* Increased space around each list item */
+    border: 1px solid #ccc; /* Light gray border around each item */
+    border-radius: 15px; /* Rounded corners */
+    margin-bottom: 10px; /* Space between list items */
+    background-color: #f9f9f9; /* Light background color for items */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Hover effect for list items */
+section ul li:hover {
+    background-color: #e0f7fa; /* Light blue background on hover */
+    transform: scale(1.02); /* Slightly enlarge the item on hover */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow on hover */
+}
+
+/* Footer (Placeholder) */
+footer {
+    background-color: #0066cc; /* Background color for the footer */
+    color: white; /* Text color */
+    text-align: center; /* Center align text */
+    padding: 15px 0; /* Padding above and below the text */
+    position: relative; /* Ensure it stays in place */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+    font-size: 14px; /* Font size */
+    border-top: 2px solid #004c99; /* Optional: A slightly darker top border */
+}
+

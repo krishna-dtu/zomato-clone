@@ -1,0 +1,179 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light background for contrast */
+    color: #333; /* Dark text for readability */
+}
+
+/* Header Styling */
+header {
+    background-color: #f70303; /* Dark red header */
+    color: #ffffff; /* White text color */
+    padding: 20px; /* Padding around header */
+    text-align: center; /* Center align text */
+    flex-direction: column; /* Stack items vertically */
+}
+
+h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 2.5rem; /* Large font for main title */
+    letter-spacing: 1px; /* Slight letter spacing for elegance */
+}
+
+/* Investor Link Box Styling */
+.investor-link {
+    margin-left: 1000px;
+    background-color: #ffffff; /* White background for the link box */
+    padding: 10px 15px; /* Padding for the link box */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: inline-block; /* Keep it as an inline block for the link box */
+}
+
+.investor-link a {
+    color: #f70303; /* Red text for the link */
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+.investor-link a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Search Form Styling */
+form {
+    margin-top: 20px; /* Space between title and form */
+}
+
+input[type="search"] {
+    padding: 10px; /* Padding for search input */
+    width: 250px; /* Fixed width for search box */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Space between input and select */
+}
+
+select {
+    padding: 10px; /* Padding for select dropdown */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #fff; /* White background */
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    header {
+        padding: 15px; /* Reduce padding on small screens */
+    }
+
+    h1 {
+        font-size: 2rem; /* Smaller header font size */
+    }
+
+    input[type="search"], select {
+        width: 100%; /* Full width on smaller screens */
+        margin: 10px 0; /* Space for vertical stacking */
+    }
+
+    .investor-link {
+        margin: 10px 0; /* Space above and below the link box on small screens */
+    }
+}
+
+
+/* Main Section Styling */
+main {
+    padding: 20px; /* Padding around main content */
+}
+
+section {
+    margin: 20px 0; /* Space between announcement blocks */
+}
+
+/* Announcement Box Styling */
+.announcement {
+    margin: 20px 0; /* Space between announcement blocks */
+    padding: 20px; /* Inner padding for section */
+    background-color: #fff; /* White background for sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.announcement:hover {
+    background-color: #c9b6b6; /* background on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Heading and Paragraph Styling */
+h3 {
+    margin: 10px 0; /* Margin for headings */
+    font-size: 1.0rem; /* Medium font size for date */
+}
+
+p {
+    margin: 5px 0 10px; /* Margin for paragraphs */
+    line-height: 1.5; /* Improved readability */
+    font-size: larger;
+}
+
+/* Link Styling */
+a {
+    color: #f70303; /* Red for links */
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Horizontal Rule Styling */
+hr {
+    border: none; /* Remove default border */
+    height: 1px; /* Set height for the line */
+    background-color: #e6e6e6; /* Light grey line color */
+    margin: 20px 0; /* Space above and below the line */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #868484; 
+    color: #0a0a0a; /* Text color */
+    padding: 20px; /* Padding for footer */
+    margin-top: 30px; /* Space above footer */
+}
+
+footer img {
+    width: 100px; /* Fixed width for logo */
+    margin-bottom: 15px; /* Space below logo */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+footer img:hover {
+    transform: scale(1.1); /* Slightly enlarge image on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+    font-size: 0.9rem; /* Smaller font size for footer text */
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    header {
+        padding: 15px; /* Reduce padding on small screens */
+    }
+
+    h1 {
+        font-size: 2rem; /* Smaller header font size */
+    }
+
+    input[type="search"], select {
+        width: 100%; /* Full width on smaller screens */
+        margin: 10px 0; /* Space for vertical stacking */
+    }
+}

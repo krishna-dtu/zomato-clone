@@ -1,0 +1,61 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light background for contrast */
+    color: #333; /* Dark text for readability */
+    text-align: center; /* Center-align all text */
+}
+
+/* Header Image Styling */
+img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Main Heading Styling */
+h1 {
+    font-size: 2.5rem; /* Large font size for main title */
+    color: #b30000; /* Dark red color */
+    margin: 20px 0; /* Space above and below the heading */
+}
+
+/* Blog Post Styling */
+div[class^="blog"] {
+    margin: 20px 0; /* Space between blog posts */
+    border: 1px solid #e6e6e6; /* Light border around blog posts */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Ensure rounded corners apply to the content */
+}
+
+div[class^="blog"] a {
+    text-decoration: none; /* No underline on links */
+}
+
+div[class^="blog"] img {
+    width: 100%; /* Responsive image within blog posts */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Blog Title Styling */
+h3 {
+    font-size: 1.5rem; /* Medium font size for blog titles */
+    color: #b30000; /* Dark red color for titles */
+    margin: 10px 0; /* Space around titles */
+}
+
+/* Blog Info Styling */
+h5 {
+    font-size: 1rem; /* Smaller font size for blog info */
+    color: #555; /* Grey color for readability */
+    margin: 5px 0; /* Space around blog info */
+}
+
+/* Footer Note Styling */
+p {
+    font-size: 0.9rem; /* Smaller font size for footer note */
+    color: #777; /* Lighter grey color */
+    margin: 20px; /* Margin for footer note */
+}

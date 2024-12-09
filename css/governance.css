@@ -1,0 +1,86 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light background for contrast */
+    color: #333; /* Dark text for readability */
+}
+
+/* Header Styling */
+header {
+    background-color: #fa0505; /* red header */
+    color: #ffffff; /* White text color */
+    padding: 20px; /* Padding around header */
+    text-align: center; /* Center align text */
+}
+
+h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 2.5rem; /* Large font for main title */
+}
+
+/* Horizontal Rule Styling */
+hr {
+    border: none; /* Remove default border */
+    height: 1px; /* Set height for the line */
+    background-color: #ffffff; /* White line color */
+    margin: 20px 0; /* Space above and below the line */
+}
+
+/* Main Section Styling */
+main {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping of elements */
+    justify-content: center; /* Center the items */
+    padding: 20px; /* Padding around main content */
+}
+
+main div {
+    margin: 15px; /* Space between member cards */
+    text-align: center; /* Center align text in each card */
+    border: 1px solid #e6e6e6; /* Light border around cards */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #ffffff; /* White background for cards */
+    padding: 10px; /* Inner padding for cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+main div:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+img {
+    width: 100%; /* Responsive image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+/* Member Name Styling */
+h2 {
+    font-size: 1.5rem; /* Medium font size for names */
+    color: #b30000; /* Dark red color for names */
+    margin: 10px 0; /* Space around names */
+}
+
+/* Member Role Styling */
+p {
+    font-size: 1rem; /* Standard font size for roles */
+    color: #555; /* Grey color for roles */
+    margin: 5px 0; /* Space around roles */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #868484; /* Dark grey footer */
+    color: #ffffff; /* White text color */
+    padding: 20px; /* Padding for footer */
+    text-align: center; /* Center align text */
+    margin-top: 30px; /* Space above footer */
+}
+
+footer img {
+    width: 100px; /* Fixed width for logo */
+    margin-bottom: 10px; /* Space below logo */
+}

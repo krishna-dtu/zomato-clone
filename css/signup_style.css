@@ -1,0 +1,135 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf7f7; /* Light background for a clean look */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Sign-up container styles */
+.signup-container {
+    background-color: #ffffff; /* White background for the form */
+    padding: 30px; /* Increased padding for more breathing space */
+    border-radius: 10px; /* More rounded corners for a modern look */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Deeper shadow for depth */
+    width: 350px; /* Slightly wider form for comfort */
+    transition: box-shadow 0.3s ease; /* Smooth transition for hover */
+}
+
+.signup-container:hover {
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15); /* Slightly larger shadow on hover */
+}
+
+/* Header (Title) styles */
+h2 {
+    text-align: center;
+    color: #d9534f; /* Bold red color for emphasis */
+    margin-bottom: 20px; /* Space between title and form */
+    font-size: 24px; /* Larger font size for title */
+}
+
+/* Input fields styling */
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px; /* Slightly larger padding for better user experience */
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Smooth rounded corners */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05); /* Inner shadow for depth */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth focus effect */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #d9534f; /* Highlight border on focus */
+    box-shadow: 0 0 8px rgba(217, 83, 79, 0.2); /* Outer glow on focus */
+}
+
+/* Checkbox container */
+.checkbox-container {
+    margin: 10px 0;
+    display: flex;
+    align-items: center; /* Align checkbox and label in the center */
+}
+
+.checkbox-container input {
+    margin-right: 10px; /* Space between checkbox and label */
+}
+
+/* Sign-up button */
+.signup-button {
+    background-color: #d9534f; /* Bold red button */
+    color: white;
+    border: none;
+    padding: 12px; /* Larger padding for comfortable clicking */
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px; /* Larger font size for readability */
+    transition: background-color 0.3s ease, transform 0.1s ease; /* Add smooth transition */
+    text-align: center;
+    display: inline-block;
+}
+
+.signup-button a {
+    color: white; /* Ensures the link text inherits the white color from the button */
+    text-decoration: none; /* Remove underline from the link */
+    display: block; /* Makes the anchor take up the full button area */
+    width: 100%;
+    height: 100%;
+}
+
+.signup-button:hover {
+    background-color: #c9302c; /* Darker red on hover */
+    transform: translateY(-2px); /* Slight upward shift on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+.signup-button a:hover {
+    color: white; /* Keep the text white when hovering over the button */
+}
+
+
+/* Google Sign-up button */
+.google-signup {
+    background-color: #4285F4; /* Google blue button */
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.google-signup:hover {
+    background-color: #357ae8; /* Darker Google blue on hover */
+    transform: translateY(-2px); /* Slight upward shift on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+/* Login prompt at the bottom */
+.login-prompt {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px; /* Smaller font for secondary info */
+    color: #666; /* Subtle color for text */
+}
+
+.login-prompt a {
+    color: #d9534f; /* Consistent red theme for links */
+    text-decoration: none;
+    font-weight: bold; /* Bold link for prominence */
+    transition: color 0.3s ease; /* Smooth color change on hover */
+}
+
+.login-prompt a:hover {
+    color: #c9302c; /* Darker red on hover */
+}

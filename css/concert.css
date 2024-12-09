@@ -1,0 +1,129 @@
+/* Reset basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text for contrast */
+}
+
+/* Header styling */
+header {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left (logo stays left) */
+    justify-content: center; /* Center the text vertically if needed */
+    background-color: #000; /* Black background for header */
+    color: white;
+    padding: 20px;
+    position: relative; /* Allow positioning of elements */
+}
+
+header img {
+    max-width: 120px; /* Adjust logo size */
+    height: auto;
+    position: absolute; /* Position logo in top left corner */
+    top: 20px;
+    left: 20px;
+}
+
+header h1,
+header h3 {
+    text-align: center; /* Center the text */
+    width: 100%; /* Ensure the header text spans the full width */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px; /* Space between h1 and h3 */
+}
+
+header h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px; /* Space between h3 and hr */
+}
+
+header hr {
+    border: 1px solid #fff; /* White border */
+    width: 80%; /* Adjust width as needed */
+    margin: 20px auto; /* Center the hr and add margin */
+}
+
+/* Main content section */
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Featured section styling */
+.featured {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.featured a {
+    display: block;
+    text-align: center;
+    color: #fff; /* White text */
+    text-decoration: none;
+    background-color: #333; /* Dark background for the event cards */
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    position: relative;
+}
+
+.featured a:hover {
+    transform: scale(1.05); /* Slight scale on hover */
+    background-color: #555; /* Lighter dark gray on hover */
+}
+
+.featured img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.featured a span {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* Footer styling */
+footer {
+    background-color: #000; /* Black footer */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .featured {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header h3 {
+        font-size: 1rem;
+    }
+
+    .featured a {
+        padding: 15px;
+    }
+}
